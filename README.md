@@ -1,4 +1,4 @@
-English | [简体中文](README_sc.md)
+English | [简体中文](README_sc.md) | [正體中文](README_tc.md)
 # eu_ex
 
 eu_ex means EUserv_extend. A Python script which can help you renew your free EUserv IPv6 VPS.

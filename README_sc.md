@@ -1,4 +1,4 @@
-[English](./README.md) | 简体中文
+[English](README.md) | 简体中文 | [正體中文](README_tc.md)
 # eu_ex
 
 eu_ex 是 EUserv_extend 的简写。一个 Python 脚本，可以帮你续期免费 EUserv IPv6 VPS。
