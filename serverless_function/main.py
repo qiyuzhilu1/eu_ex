@@ -2,7 +2,7 @@
 
 #
 # SPDX-FileCopyrightText: (c) 2020-2021 CokeMine & Its repository contributors
-# SPDX-FileCopyrightText: (c) 2021 A beam of light
+# SPDX-FileCopyrightText: (c) 2021-2022 A beam of light
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
@@ -12,11 +12,14 @@ euserv auto-renew script
 
 ChangeLog
 
-v2021.09.30
-- Captcha automatic recognition using TrueCaptcha API
-- Email notification
-- Add login failure retry mechanism
-- reformat log info
+v2021.12.15
+- Implemented a simple localization system, log output localization
+- Reformat code via black
+
+v2021.11.26
+- Handle TrueCaptcha service exception
+- Adjust TrueCaptcha constraint parameters for high availability.
+  Plus, the CAPTCHA of EUserv is currently case-insensitive, so the above adjustment works.
 
 v2021.11.06
 - Receive renew PIN(6-digits) using mailparser parsed data download url
@@ -24,14 +27,11 @@ v2021.11.06
   -> parsing PIN via mailparser -> get PIN from mailparser
 - Update kc2_security_password_get_token request
 
-v2021.11.26
-- Handle TrueCaptcha service exception
-- Adjust TrueCaptcha constraint parameters for high availability.
-  Plus, the CAPTCHA of EUserv is currently case-insensitive, so the above adjustment works.
-
-v2021.12.15
-- Implemented a simple localization system, log output localization
-- Reformat code via black
+v2021.09.30
+- Captcha automatic recognition using TrueCaptcha API
+- Email notification
+- Add login failure retry mechanism
+- reformat log info
 
 """
 
