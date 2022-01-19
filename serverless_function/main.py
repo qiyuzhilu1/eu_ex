@@ -110,7 +110,7 @@ CHECK_CAPTCHA_SOLVER_USAGE = True
 
 user_agent = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/96.0.4664.110 Safari/537.36"
+    "Chrome/97.0.4692.71 Safari/537.36"
 )
 
 # Blank
@@ -127,7 +127,7 @@ chs_locale = {
     "Login retried the @@@ time": "登录重试第 @@@ 次",
     "You are using the demo apikey": "你正在使用演示版 apikey",
     "There is no guarantee that demo apikey will work in the future": "无法保证演示版 apikey 在将来也能使用",
-    "You are using your own apikey": " 你正在使用自己的 apikey",
+    "You are using your own apikey": "你正在使用自己的 apikey",
     "Service Exception": "服务异常",
     "Returned JSON": "返回的 JSON",
     "Failed to find parsed results": "找不到解析结果",
@@ -172,7 +172,7 @@ cht_locale = {
     "Login retried the @@@ time": "登錄重試第 @@@ 次",
     "You are using the demo apikey": "你正在使用演示版 apikey",
     "There is no guarantee that demo apikey will work in the future": "無法保證演示版 apikey 在將來也能使用",
-    "You are using your own apikey": " 你正在使用你自己的 apikey",
+    "You are using your own apikey": "你正在使用你自己的 apikey",
     "Service Exception": "服務異常",
     "Returned JSON": "返回的 JSON",
     "Failed to find parsed results": "找不到解析結果",
